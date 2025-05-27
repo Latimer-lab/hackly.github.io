@@ -337,7 +337,7 @@ main {
 
 .idea_container:hover{
     background-color: var(--acc_two);
-    transition: 0.5s;
+    transition: none;
 }
 
 .idea_date, .idea_views{
