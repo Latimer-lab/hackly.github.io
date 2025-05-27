@@ -337,7 +337,11 @@ main {
 
 .idea_container:hover{
     background-color: var(--acc_two);
+<<<<<<< HEAD
     transition: 0.5s;
+=======
+    transition: none;
+>>>>>>> 3c935ebd04be51ca200796b32057a17b4f688112
 }
 
 .idea_date, .idea_views{
@@ -788,4 +792,8 @@ iframe {
         padding: 8px 12px;
         font-size: 14px;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3c935ebd04be51ca200796b32057a17b4f688112

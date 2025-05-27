@@ -5,6 +5,7 @@
 
 # Dependencies
 node_modules/
+<<<<<<< HEAD
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -14,11 +15,27 @@ dist/
 build/
 
 # IDE files
+=======
+package-lock.json
+
+# IDE and OS files
+.DS_Store
+>>>>>>> 3c935ebd04be51ca200796b32057a17b4f688112
 .idea/
 .vscode/
 *.swp
 *.swo
 
+<<<<<<< HEAD
 # OS files
 .DS_Store
 Thumbs.db 
+=======
+# Build files
+dist/
+build/
+
+# Firebase
+firebase-debug.log
+.firebase/ 
+>>>>>>> 3c935ebd04be51ca200796b32057a17b4f688112
