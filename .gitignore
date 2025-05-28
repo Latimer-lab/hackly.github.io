@@ -1,41 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
 # Environment variables
 .env
 .env.local
 .env.*.local
 
-# Dependencies
-node_modules/
-<<<<<<< HEAD
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Build output
-dist/
-build/
-
-# IDE files
-=======
-package-lock.json
-
-# IDE and OS files
-.DS_Store
->>>>>>> 3c935ebd04be51ca200796b32057a17b4f688112
+# IDE
 .idea/
 .vscode/
 *.swp
 *.swo
 
-<<<<<<< HEAD
-# OS files
+# OS
 .DS_Store
-Thumbs.db 
-=======
-# Build files
-dist/
-build/
+Thumbs.db
 
 # Firebase
+.firebase/
 firebase-debug.log
-.firebase/ 
->>>>>>> 3c935ebd04be51ca200796b32057a17b4f688112
